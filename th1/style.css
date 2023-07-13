@@ -1,0 +1,89 @@
+/* .navbar li a{
+    text-decoration: none;
+    width: 150px;
+        border-right: 1px solid #ccc;
+        margin-left: 10px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: rgb(189, 171, 171);
+        color: white;
+}
+ul{
+    list-style: none;
+}
+
+.navbar li{
+    
+    float: left;
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: blue;
+        left: 100px;
+        bottom: 300px;
+        position: fixed;
+        padding: 20px;
+        border: 1px solid black;
+        
+}
+.box2{
+    background-color: blue;
+        left: 200px;
+        bottom: 500px;
+        position: fixed;
+        padding: 20px;
+        border: 1px solid black;
+} */
+.felex-container{
+    border: 1px solid;
+    height: 400px;
+    display: flex; 
+
+    /* thay doi truc main axis */
+    flex-direction:row;
+  
+    /* justify-content:center; */
+    align-items: end;
+     gap: 50px;/* Cach deu */
+     flex: auto 1 1;
+     /* align-self: center; */
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+    line-height: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 200px 300px 100px;
+    grid-template-rows: 100px 200px 300px 400px;
+    column-gap: 200px;
+}
+.gid>div{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+    line-height: 50px;
+    border: 1px solid;
+}
+.gid{
+    display: grid;
+    /* grid-column: auto; */
+    /* grid-template-columns: 100px 200px 300px 400px; */
+    /* grid-template-rows: 100px 200px 300px 400px ; */
+}
+.item_5{
+    grid-area:2/2/3/4;
+}

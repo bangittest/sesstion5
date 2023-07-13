@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    padding: 0 330px;
+}
+.box {
+    width: 500px;
+    border: none;
+    height: 300px;
+    display: grid;
+    
+    
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px
+    
+}
+
+.box>div {
+    background-color:antiquewhite;
+    color: aliceblue;
+    display: flex;}
+h4{
+    color:black;}
+span{
+    color: black;
+}
+button{
+    background-color:rgb(96, 7, 79);
+    border-radius: 4px;
+}
